@@ -7,7 +7,7 @@ It contains an example of orderd task execution in independed chains.
 
 ```cpp
 int main() {
-  ThreadPool tp(4); // simple tread pool with 4 threads
+  ThreadPool tp(4); // simple thread pool with 4 threads
 
   RunnableChain rch1(tp); // chain 1
   RunnableChain rch2(tp); // chain 2
